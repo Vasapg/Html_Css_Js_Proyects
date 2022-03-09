@@ -3,16 +3,31 @@
     <link rel="stylesheet" href="/conversorSegs/conversorSeg.css">
 <title>ConversorSeg</title>
     <body>
-        <h1 style="text-align: center;" id="titulo">ConversorG</h1>
+        <h1 id="titulo" >ConversorG</h1>
+        <div id="Div1">        
             <label>introduzca un numero
+
             <br>
             <select name="OS">
                 <option value="0">Segundos</option>
                 <option value="1">Milisegundos</option>
                 <option value="2">Microsegundos</option>
             <input type="number" value="0" name="segs">
-            <script src="./conversorjs.js" onclick="cambiarTit()"></script>
-            </label>
+                
+            <br>
+            <div id="Div3">    <button id="boton1" onclick="document.getElementById('demo').innerHTML = 24 ">CONVERTIR</button>
+            </div>
+
+            <br>
+            <select name="OS">
+                <option value="0">Segundos</option>
+                <option value="1">Milisegundos</option>
+                <option value="2">Microsegundos</option>
+                <input type="number" value="0" name="segs">
+    </div>
+    <div id="Div2">
+    </div>
+    <h2 id="demo"></h2>
     </body>
 </head>
 </html>
